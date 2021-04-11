@@ -32,7 +32,6 @@ public:
 	class UCollidingPawnMovementComponent* OurMovementComponent;
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
-	// 입력 처리를 위한 코드
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
 	void Turn(float AxisValue);
