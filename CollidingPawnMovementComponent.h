@@ -10,11 +10,10 @@
  * 
  */
 UCLASS()
-class HOWTO_COMPONENTS_API UCollidingPawnMovementComponent : public UPawnMovementComponent
+class HOW_TO_COMPONENTS_API UCollidingPawnMovementComponent : public UPawnMovementComponent
 {
 	GENERATED_BODY()
-
+	
 public:
 	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	
 };
